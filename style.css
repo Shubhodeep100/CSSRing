@@ -9,58 +9,66 @@ body {
 .concentric-ring {
   width: 140px;
   height: 140px;
-  border: 25px solid #E1DEE3  ; /* Outer ring */
+  border: 25px solid #e1dee3; /* Outer ring */
   border-radius: 50%; /* Makes it a circle */
 }
 
-div{
-      position:absolute;
-      inset: 50%;
-      background: white;
-      width: 10px;
-      height: 10px;
-      translate: -50% -50%;
-      border-radius:50%
-      
-    }
-    
-   .outer {
+div {
+  position: absolute;
+  inset: 50%;
+  background: white;
+  width: 10px;
+  height: 10px;
+ transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.outer {
   width: 200px;
   height: 200px;
-  background: conic-gradient(rgba(71, 48, 199, 1) 65%, rgba(207, 206, 213, 0) 0%);
+  background: conic-gradient(
+    rgba(71, 48, 199, 1) 65%,
+    rgba(207, 206, 213, 0) 0%
+  );
 }
 
-    .inner{
-      width: 120px;
-      height: 120px;
-      background: #FFFFFF
+.inner {
+  width: 120px;
+  height: 120px;
+  background: #ffffff;
+ 
 }
-    .inner2{
-      width: 110px;
-      height: 110px;
-      background: #FFFFFF
+.inner2 {
+  width: 110px;
+  height: 110px;
+  background: #ffffff;
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-
-
 
 /*  */
 
-p{
- display:flex;
-justify-content:center;
-      align-items:center;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-span{
-display: flex;
+p {
+  display: flex;
   justify-content: center;
-  align-items: top;
-  font-size: 10px; 
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
 }
 
+span {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 10px;
+  align-items: top;
+  font-size: 10px;
+}
 
 body {
   display: flex;
@@ -70,18 +78,13 @@ body {
   margin: 0;
 }
 
-
-
 .circle {
   width: 220px;
   height: 220px;
   background: conic-gradient(
-  transparent 0deg,  /* Transparent from 0 to 35 degrees */
-#F418A4  0 0.22turn,      /* Solid white from 35 to 90 degrees */
-     transparent 0.12turn /* Transparent from 90 to 360 degrees (full circle) */
+    transparent 0deg,
+     #f418a4 0 0.22turn,
+    transparent 0.12turn
   );
-  border-radius: 50%;  /* Makes it a circle */
+  border-radius: 50%; 
 }
-
-
-    
