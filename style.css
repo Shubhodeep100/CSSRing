@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.concentric-ring {
+  width: 140px;
+  height: 140px;
+  border: 25px solid #E1DEE3  ; /* Outer ring */
+  border-radius: 50%; /* Makes it a circle */
+}
+
+div{
+      position:absolute;
+      inset: 50%;
+      background: white;
+      width: 10px;
+      height: 10px;
+      translate: -50% -50%;
+      border-radius:50%
+      
+    }
+    
+   .outer {
+  width: 200px;
+  height: 200px;
+  background: conic-gradient(rgba(71, 48, 199, 1) 65%, rgba(207, 206, 213, 0) 0%);
+}
+
+    .inner{
+      width: 120px;
+      height: 120px;
+      background: #FFFFFF
+}
+    .inner2{
+      width: 110px;
+      height: 110px;
+      background: #FFFFFF
+}
+
+
+
+
+/*  */
+
+p{
+ display:flex;
+justify-content:center;
+      align-items:center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+span{
+display: flex;
+  justify-content: center;
+  align-items: top;
+  font-size: 10px; 
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.circle {
+  width: 220px;
+  height: 220px;
+  background: conic-gradient(
+  transparent 0deg,  /* Transparent from 0 to 35 degrees */
+#F418A4  0 0.22turn,      /* Solid white from 35 to 90 degrees */
+     transparent 0.12turn /* Transparent from 90 to 360 degrees (full circle) */
+  );
+  border-radius: 50%;  /* Makes it a circle */
+}
+
+
+    
